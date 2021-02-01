@@ -14,7 +14,3 @@ jobs:
           # Your ML workflow goes here
           pip install -r requirements.txt
           python train.py
-          
-          #Let's printout what whas in my metrix file into the terminal
-          echo "MODEL METRICS"
-          cat metrics.txt
